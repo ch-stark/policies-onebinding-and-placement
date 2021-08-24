@@ -1,0 +1,4 @@
+- have several policies
+- have one binding and one placementrule
+- to run example create a namespace called common-policies
+- you can create an Application within RHACM to deploy the policies via gitops
