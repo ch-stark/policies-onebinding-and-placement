@@ -1,0 +1,12 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+    name: common-placementrules
+    namespace: common-policies
+spec:
+    clusterSelector:
+        matchExpressions:
+            - key: common
+              operator: In
+              values:
+                - "true"
