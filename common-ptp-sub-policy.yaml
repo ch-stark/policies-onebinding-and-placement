@@ -17,7 +17,7 @@ spec:
             metadata:
                 name: common-ptp-sub-policy-config
             spec:
-                remediationAction: enforce
+                remediationAction: inform
                 severity: low
                 namespaceselector:
                     exclude:
