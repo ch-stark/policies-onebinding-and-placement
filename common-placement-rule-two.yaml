@@ -6,7 +6,7 @@ metadata:
 spec:
     clusterSelector:
         matchExpressions:
-            - key: common
+            - key: common-two
               operator: In
               values:
                 - "true"
