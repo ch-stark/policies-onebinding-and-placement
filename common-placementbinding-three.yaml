@@ -1,7 +1,7 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
-    name: common-placementbinding-3
+    name: common-placementbinding-three
     namespace: common-policies
 placementRef:
     name: common-placementrules
