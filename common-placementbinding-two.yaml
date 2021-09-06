@@ -4,7 +4,7 @@ metadata:
     name: common-placementbinding-two
     namespace: common-policies
 placementRef:
-    name: common-placementrules
+    name: common-placementrules-two
     kind: PlacementRule
     apiGroup: apps.open-cluster-management.io
 subjects:
