@@ -8,7 +8,7 @@ metadata:
     name: common-log-sub-policy
     namespace: common-policies
 spec:
-    remediationAction: enforce
+    remediationAction: inform
     disabled: false
     policy-templates:
         - objectDefinition:
